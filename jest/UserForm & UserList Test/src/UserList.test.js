@@ -18,7 +18,6 @@ test('render one row per user', () => {
 
   // better way and another way to select table row 
   // const rows = container.querySelectorAll('tbody tr')
-
   // Assertion: correct number of rows in the table
   expect(rows).toHaveLength(2);
 });
